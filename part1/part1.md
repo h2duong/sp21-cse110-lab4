@@ -42,8 +42,11 @@
 17. It returns the array [2, 4, 6]. Because we have the parameters [1, 2 ,3] and doSomething, modifyArray first takes in the array to be modified. doSomething then becomes the callback function for each element in the array, which doubles each element in the array. Then it is returned to be placed into the array.
 
 19. 1
+    
     4
+    
     3
+    
     2
 
 
