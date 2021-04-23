@@ -7,9 +7,9 @@
 6. The code returns an error; this is because we declared result with the const keyword, and it cannot be reassigned. However, the code tries to reassign result at line 7.
 
 ## Part 1b
-1. prints 3
-2. prints 150
-3. prints 150
+1. prints 3; The for loop iterates with i for the length of prices, which is 3. Therefore, i ends at 3.
+2. prints 150; The last value that discountedPrice stores is the discounted price of the last element in the argument array of prices, therefore it prints 150, the discounted price of 300.
+3. prints 150; The last value that finalPrice stores is the final price of the last element in the argument array of prices, therefore it prints 150, the final price of 300.
 4. The function returns the array of discounted prices from the original prices and discount that we initially inputted. This is because the function takes each element in the argument and calculates the discount, placing the values into the discounted array.
 5. The code causes an error, that "i is not defined". This is because we use let to declare the variables, and once the for loop is done, i has gone out of scope. Thus we can no longer access it.
 6. The code causes an error, that "discountedPrice is not defined". This is because we use let to declare the variables, and it is declared inside the for loop. This means that once the for loop is done, it is out of scope and not accessible.
